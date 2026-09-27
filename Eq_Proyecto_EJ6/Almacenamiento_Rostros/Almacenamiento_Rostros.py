@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 faceClassif= cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-image = cv2.imread('pp.jpg')
+image = cv2.imread('pp2.png')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 imageAux=image.copy()
 
